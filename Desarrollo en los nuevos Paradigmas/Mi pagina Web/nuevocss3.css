@@ -1,0 +1,20 @@
+body{
+
+    background-image: url('moon.gif');
+    background-size: 25%;
+    text-align: center;
+}
+
+#principal{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #999;
+
+    background: -webkit-radial-gradient(center, ellipse, #FFFFFF, #000000);
+    background: -moz-radial-gradient(center, ellipse, #FFFFFF, #000000);
+}
+#titulo{
+    font: bold 36px verdana, sans-serif;
+}
