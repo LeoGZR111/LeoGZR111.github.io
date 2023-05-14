@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>GloboMarket</title>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var hamburger = document.querySelector('#header .hamburger');
+      var navList = document.querySelector('#header .nav-list ul');
+  
+      hamburger.addEventListener('click', function () {
+        hamburger.classList.toggle('active');
+        navList.classList.toggle('active');
+      });
+    });
+  </script>
 </head>
 
 <body>
@@ -21,15 +33,16 @@
         <div class="nav-list">
           
           <ul>
-            <li><a href="#hero" data-after="Home">Inicio</a></li>
-            <li><a href="#services" data-after="Service">Servicios</a></li>
-            <li><a href="#projects" data-after="Projects">Galería</a></li>
-            <li><a href="#about" data-after="About">Nosotros</a></li>
-            <li><a href="#contact" data-after="Contact">Contacto</a></li>
+            <li><a href="#hero" data-after="Inicio">Inicio</a></li>
+            <li><a href="#services" data-after="Servicios">Servicios</a></li>
+            <li><a href="#projects" data-after="Galería">Galería</a></li>
+            <li><a href="#about" data-after="Nosotros">Nosotros</a></li>
+            <li><a href="#contact" data-after="Contacto">Contacto</a></li>
           </ul>
         </div>
         <div class="hamburger">
           <div class="bar"></div>
+          
         </div>
       </div>
     </div>
