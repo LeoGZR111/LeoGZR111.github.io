@@ -1,2 +1,0 @@
-# GloboMarket
-Primer trabajo
