@@ -1,0 +1,50 @@
+/* Estilos para el video de fondo */
+.video-background {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Colocar el video detrás de todo el contenido */
+  }
+  
+  /* Estilos para el contenido */
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+/* Estilos para el contenedor de animación */
+.animation-container {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    overflow: hidden; /* Ocultar cualquier contenido que desborde del contenedor */
+  }
+  
+  /* Animación para el encabezado */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-65%);
+    }
+    to {
+      transform: translateX(65%);
+    }
+  }
+  
+  /* Estilos para el encabezado animado */
+  .animated-heading {
+    animation: slideIn 20s linear infinite; /* Animación de desplazamiento */
+  }
+
+.navigation-box {
+    border: 1px solid #ccc; /* Borde de 1px de ancho y color gris claro */
+    padding: 10px; /* Espacio interno de 10px alrededor del contenido */
+    margin: 20px; /* Margen externo de 20px alrededor del cuadro */
+    border-radius: 5px; /* Bordes redondeados */
+    width: fit-content;
+    background-color: #c0baba; /* Color de fondo */
+  }

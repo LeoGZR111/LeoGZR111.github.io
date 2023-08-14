@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprende HTML</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<video autoplay muted loop id="background-video">
+  <source src="fondo.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <div class="animation-container">
+    <h1 class="animated-heading" style="color: white;">Aprende HTML Desde Cero</h1>
+  </div>
+
+  <p style="color: white;">En esta página web, 
+    te invitamos a sumergirte en el mundo del desarrollo web aprendiendo los conceptos
+    fundamentales de HTML. La estructura de la página está diseñada para que puedas explorar 
+    diferentes temas y elementos de HTML de manera organizada y accesible.</p>
+
+  <nav class="navigation-box">
+    <ul>
+      <li><a href="#lista" style="color: white;">Cómo crear una lista</a></li>
+      <li><a href="#imagenes" style="color: white;">Cómo agregar imágenes</a></li>
+      <li><a href="#videos" style="color: white;">Cómo insertar videos</a></li>
+      <li><a href="#referencias" style="color: white;">Cómo añadir referencias</a></li>
+    </ul>
+  </nav>
+  
+  <p style="color: white;">A continuación se muestra como es que está estructurado:</p>
+<code style="color: white;">
+  &lt;ul&gt; <br>
+    &lt;li&gt;&lt;a href="#lista" style="color: white;"&gt;Cómo crear una lista&lt;/a&gt;&lt;/li&gt; <br>
+    &lt;li&gt;&lt;a href="#imagenes" style="color: white;"&gt;Cómo agregar imágenes&lt;/a&gt;&lt;/li&gt; <br>
+    &lt;li&gt;&lt;a href="#videos" style="color: white;"&gt;Cómo insertar videos&lt;/a&gt;&lt;/li&gt; <br>
+    &lt;li&gt;&lt;a href="#referencias" style="color: white;"&gt;Cómo añadir referencias&lt;/a&gt;&lt;/li&gt; <br>
+  &lt;/ul&gt;
+</code>
+
+  <main>
+    <section id="lista">
+      <h2 style="color: white;">Cómo crear una lista</h2>
+      <ul>
+        <li style="color: white;">Elemento 1</li>
+        <li style="color: white;">Elemento 2</li>
+        <li style="color: white;">Elemento 3</li>
+      </ul>
+    </section>
+    <p style="color: white;">A continuación se muestra como es que está estructurado:</p>
+    <code style="color: white;">
+        &lt;ul&gt; <br>
+          &lt;li style="color: white;"&gt;Elemento 1&lt;/li&gt; <br>
+          &lt;li style="color: white;"&gt;Elemento 2&lt;/li&gt; <br>
+          &lt;li style="color: white;"&gt;Elemento 3&lt;/li&gt; <br>
+        &lt;/ul&gt;
+      </code>
+
+    <section id="imagenes">
+      <h2 style="color: white;">Cómo agregar imágenes</h2>
+      <a href="https://pixabay.com/es/photos/c%C3%B3digo-html-digital-codificaci%C3%B3n-1076536/">
+        <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg" alt="Imagen de Código, Html y Digital." style="max-width: 500px;">
+      </a>
+      <p style="color: white;">Dándole click a la imagen podrás dirigirte al enlace del autor de dicha imagen.</p>
+    </section>
+
+    <section id="videos">
+      <h2 style="color: white;">Cómo insertar videos</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ptc4Awb0UpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="referencias">
+      <h2 style="color: white;">Cómo añadir referencias</h2>
+      <p style="color: white;">Aprende más en <a href="https://www.w3schools.com/TAGS/" style="color: white;">W3Schools</a></p>
+    </section>
+  </main>
+  <div style="height: 1000px;"></div>
+</div>
+
+</body>
+</html>
